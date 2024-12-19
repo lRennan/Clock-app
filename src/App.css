@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #1d1f21;
+  font-family: 'Arial', sans-serif;
+  color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  background-color: #2a2e32;
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.7);
+}
+
+.clock {
+  background-color: #333;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.8);
+}
+
+.time {
+  font-size: 5rem;
+  font-weight: 700;
+  color: #00c2ff;
+  letter-spacing: 4px;
+}
+
+.day {
+  font-size: 1.8rem;
+  margin-top: 10px;
+  color: #ffcc00;
+}
+
+.date {
+  font-size: 1.4rem;
+  margin-top: 5px;
+  color: #ffcc00;
+}
+
+@media (max-width: 600px) {
+  .time {
+    font-size: 4rem;
+  }
+
+  .day {
+    font-size: 1.5rem;
+  }
+
+  .date {
+    font-size: 1.2rem;
+  }
+}
