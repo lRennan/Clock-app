@@ -24,7 +24,7 @@ This is a simple digital clock app built with React. It displays the current tim
 2. Navigate into the project folder:
 
    ```bash
-   cd digital-clock-react
+   cd digital-clock-app
    ```
 
 3. Install dependencies:
