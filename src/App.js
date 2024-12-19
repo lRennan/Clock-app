@@ -6,7 +6,6 @@ const App = () => {
   const [day, setDay] = useState('');
   const [date, setDate] = useState('');
 
-  // Função para formatar o horário e as legendas
   const setCaptions = () => {
     const now = new Date();
     const hours = now.getHours();
@@ -18,12 +17,11 @@ const App = () => {
     setDate(now.toLocaleDateString());
   };
 
-  // Atualiza as legendas a cada segundo
   useEffect(() => {
     setCaptions();
     const intervalId = setInterval(setCaptions, 1000);
 
-    return () => clearInterval(intervalId); // Limpa o intervalo quando o componente for desmontado
+    return () => clearInterval(intervalId); 
   }, []);
 
   return (
