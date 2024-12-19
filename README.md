@@ -11,7 +11,7 @@ This is a simple digital clock app built with React. It displays the current tim
 
 ## Screenshots
 
-![clock](![clock-app](https://github.com/user-attachments/assets/3c8337f5-069c-4e48-a08a-72d54f210e6e))
+(![clock-app](https://github.com/user-attachments/assets/3c8337f5-069c-4e48-a08a-72d54f210e6e))
 
 ## Installation
 
