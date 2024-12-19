@@ -47,11 +47,3 @@ This is a simple digital clock app built with React. It displays the current tim
 - **CSS**: For styling the clock and the layout.
 - **Moment.js**: (Optional) For date formatting (if used).
 
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## Acknowledgements
-
-Inspired by modern digital clock designs. Feel free to modify and use it for personal or educational purposes.
-```
